@@ -138,8 +138,89 @@ In case, you already have an existing backend environment, you can enable Amplif
 
 ### Getting started with fullstack continuous deployments
 
-•	Please Log in to the Amplify Console and choose Get Started under Deploy. In the below screen, choose From fullstack samples. And you can also start your own adventure by building a backend from scratch by installing the Amplify CLI.
+* Please Log in to the Amplify Console and choose Get Started under Deploy. In the below screen, choose From fullstack samples. And you can also start your own adventure by building a backend from scratch by installing the Amplify CLI.
 
-         
+![image](https://user-images.githubusercontent.com/91752852/145033504-b56df110-63b9-4812-87e6-2fb197d144d0.png)
+
+
+* After that, you have to choose the Authentication Starter and Deploy app. You will be questioned to connect your GitHub account. Connecting your GitHub account permits the Amplify Console to create a fork of the repository in your account, deploy the AWS backend services, and build and deploy the frontend. Further, you will need to create a service role to deploy backend resources to AWS.
+
+![fullstack2](https://user-images.githubusercontent.com/91752852/145033879-0896c329-6c3d-4c02-ab45-e38ad2bc8333.gif)
+
+
+Explore the fullstack app: 
+*	Your app build will begin by deploying the backend followed by the frontend. 
+*	Click on the branch name to see the running build. Once the build completes you will be able to see screenshots of your app on different devices.
+
+![image](https://user-images.githubusercontent.com/91752852/145033977-bcf93db2-3054-491a-9dc9-578b6089d24c.png)
+
+At the end of the build, you will have one frontend environment that the main branch deployed at ‘https://main.appid.amplifyapp.com’ and one backend environment named devX. 
+
+*	To add a user to your app, you can either register a user through the deployed frontend, or choose the Authentication tab which links to the Amazon Cognito UserPool. Create a user and try logging in to your app.
+
+![fullstack3](https://user-images.githubusercontent.com/91752852/145034507-faf7b2da-d652-40a6-88bf-5a8f84afec24.gif)
+
+Add a GraphQL backend:	
+
+* Let’s add a GraphQL API backend with a NoSQL database to your app. To start, clone the repository that was forked in your account.
+
+```bash
+git clone git@github.com:<username>/create-react-app-auth-amplify.git
+cd create-react-app-auth-amplify
+```
+
+* From the Backend environments tab, choose Edit backend. As a pre-requisite, follow the information to install and configure the Amplify CLI. The Amplify command line toolchain allows you to edit the backend you just created to add more functionality such as GraphQL/REST APIs, analytics, and storage. Once the Amplify CLI is configured, copy the amplify pull command to connect to this backend from your local machine.
+
+ ```bash
+amplify pull --appId XXXXXXXX --envName devw
+```
+ ![image](https://user-images.githubusercontent.com/91752852/145035153-8388bcdc-19f4-440f-9e0b-f139f740cb13.png)
+
+* Add the GraphQL API using the default to-do example.
+
+```bash
+amplify add api
+? Please select from one of the below mentioned services GraphQL
+? Provide API name: todo
+? Choose the default authorization type for the API API key
+? Enter a description for the API key:
+? After how many days from now the API key should expire (1-365): 7
+? Do you want to configure advanced settings for the GraphQL API No, I am done.
+? Do you have an annotated GraphQL schema? No
+? Do you want a guided schema creation? (Y/n) Y
+? What best describes your project: Single object with fields (e.g., “Todo” with ID, name, description)
+? Do you want to edit the schema now? No
+...
+GraphQL schema compiled successfully.
+```
+
+* To deploy these changes to the cloud run the following commands.
+
+```bash
+amplify push
+Current Environment: devw
+
+| Category | Resource name   | Operation | Provider plugin   |
+| -------- | --------------- | --------- | ----------------- |
+| Api      | todo            | Create    | awscloudformation |
+| Auth     | cognitocf0c6096 | No Change | awscloudformation |
+? Are you sure you want to continue? (Y/n) Y
+..
+✔ Generated GraphQL operations successfully and saved at src/graphql
+✔ All resources are updated in the cloud
+GraphQL endpoint: https://gumwpbojgraj5b547y5d3shurq.appsync-api.us-west-2.amazonaws.com/graphql
+GraphQL API KEY: da2-vlthvw5qcffxzl2hibgowv3rdq
+```
+
+* Visit the Amplify Console to view the added API category.
+* Choosing the API category will allow you to navigate to the AppSync Console to write queries or mutations performing CRUD operations or the DynamoDB Console (to view your Todo table).
+
+
+![image](https://user-images.githubusercontent.com/91752852/145035516-faf94fc9-0fb1-4737-96f0-5e5a51db4bb5.png)
+
+
+* Use the Amplify GraphQL client to write frontend code that lists and updates the todos. To deploy the updates to your frontend, simply commit your code and a new build will be triggered in the Amplify Console.
+
+
 
 
