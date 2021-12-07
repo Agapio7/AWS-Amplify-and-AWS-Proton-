@@ -1,13 +1,14 @@
 # AWS-Amplify-and-AWS-Proton-
 
 ### Overview
+
 * Set of purpose-built architecture and features that provides frontend web and mobile developers to quickly and easily build full-stack applications on AWS.
 
 * Amplify provides two services: 
 
 
-* Amplify Hosting *: a git-based workflow for hosting full-stack serverless web apps with continuous deployment.
-* Amplify Studio *:  Visual development environment that simplifies the creation of scalable, full-stack web and mobile apps.
+* Amplify Hosting : a git-based workflow for hosting full-stack serverless web apps with continuous deployment.
+* Amplify Studio :  Visual development environment that simplifies the creation of scalable, full-stack web and mobile apps.
 
 
 ## Amplify features
@@ -112,7 +113,7 @@ A build has the following stages:
 *	Without AWS account you can still model and test your data before deploying to the cloud. 
 *	After building your data model, you must connect an AWS account to deploy your backend environment to Amplify using Amplify Studio. 
 * The sandbox interface lets you perform the following tasks:
-* Set up your data model. 
+* Set up your data model as giveb below.
 * Test your new data model locally.
 * Deploy your backend to the cloud which requires an AWS account.
 
