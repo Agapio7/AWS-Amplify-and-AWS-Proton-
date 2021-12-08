@@ -223,5 +223,35 @@ GraphQL API KEY: da2-vlthvw5qcffxzl2hibgowv3rdq
 * Use the Amplify GraphQL client to write frontend code that lists and updates the todos. To deploy the updates to your frontend, simply commit your code and a new build will be triggered in the Amplify Console.
 
 
+## Getting started with React
 
+### Prerequisites
+*	Before launching app in react you must have installed Node.js v12.x or latest version ,npm v5.x or later and git v2.14.1 or updated version. And also you know well using both JavaScript/ES6 and React.
+*	Then you need to have or create AWS account.
 
+#### Install and configure the Amplify CLI
+•	The Amplify Command Line Interface (CLI) is a unified toolchain to create AWS cloud services for your app.You can follow one of the given two ways to install the Amplify CLI.
+
+##### Method 1: https://www.youtube.com/watch?v=fWbM5DLh25U&t=45s
+##### Method 2: Follow the instructions below.
+
+### NPM
+
+```bash
+  npm install -g @aws-amplify/cli
+```
+### Mac and Linux
+```bash
+  curl -sL https://aws-amplify.github.io/amplify-cli/install | bash && $SHELL
+```
+### Window
+```bash
+  curl -sL https://aws-amplify.github.io/amplify-cli/install-win -o install.cmd && install.cmd
+```
+
+After that Set up the Amplify CLI. Configure Amplify by running the given command:
+
+```bash
+amplify configure
+```
+ * **amplify configure** will ask you to sign into the AWS Console. Then, you're signed in, Amplify CLI will ask you to create an IAM user.
