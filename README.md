@@ -225,7 +225,7 @@ GraphQL API KEY: da2-vlthvw5qcffxzl2hibgowv3rdq
 
 ## Getting started with React
 
-### Prerequisites
+###  Step 1 :Prerequisites
 *	Before launching app in react you must have installed Node.js v12.x or latest version ,npm v5.x or later and git v2.14.1 or updated version. And also you know well using both JavaScript/ES6 and React.
 *	Then you need to have or create AWS account.
 
@@ -235,16 +235,16 @@ GraphQL API KEY: da2-vlthvw5qcffxzl2hibgowv3rdq
 ##### Method 1: https://www.youtube.com/watch?v=fWbM5DLh25U&t=45s
 ##### Method 2: Follow the instructions below.
 
-### NPM
+##### NPM
 
 ```bash
   npm install -g @aws-amplify/cli
 ```
-### Mac and Linux
+##### Mac and Linux
 ```bash
   curl -sL https://aws-amplify.github.io/amplify-cli/install | bash && $SHELL
 ```
-### Window
+##### Window
 ```bash
   curl -sL https://aws-amplify.github.io/amplify-cli/install-win -o install.cmd && install.cmd
 ```
@@ -272,7 +272,7 @@ Successfully set up the new user.
 ```
 Further, we  will set up the app and initialize Amplify.
 
-### Set up fullstack project
+### Step 2: Set up fullstack project
 
 #### Create a new React App
 
@@ -361,7 +361,7 @@ Amplify.configure(awsExports);
 * And that's all it takes to configure Amplify. As you add or remove categories and make updates to your backend configuration using the Amplify CLI, the configuration in **aws-exports.js** will update automatically.
 * Lastly, our React app is set up and Amplify is initialized. we're ready to add an API in the further step.
 
-#### Connect API and database to the app
+### Step 3:Connect API and database to the app
 
 * Currently, you’ve created and configured a React app and initialized a new Amplify project, you can add a feature. The first feature we will add is an API.
 * The Amplify CLI prefers creating and interacting with two API known as  REST and GraphQL.
@@ -612,7 +612,7 @@ npm start
 
 Well done ! You have successfully deployed your API and connected it with your app.
 
-### Add authentication
+### Step 4: Add authentication
 The next step is  you will be adding  authentication.
 Authentication with Amplify
 
@@ -681,7 +681,7 @@ npm start
 
 In the next step, we'll host our app on the Amplify Console, a hosting service complete with a globally available CDN, atomic deployments, easy custom domains, and CI / CD.
  
- ### Deploy and host app
+ ### Step 5: Deploy and host app
 
 * We have made our first app with Amplify. Now, we are going to it to the web with Amplify Console.
 
@@ -709,6 +709,9 @@ amplify publish
 ```
 
 Finally, Now your app is available online.
+
+![image](https://user-images.githubusercontent.com/91752852/145192301-b6e5fdf7-dbfb-4485-b1e3-1c0392b380b2.png)
+
 
 
 * Once you published, your terminal will display your app URL hosted on a **amplifyapp.com** domain. When you make extra changes to publish, just re-run the **amplify publish** command.
