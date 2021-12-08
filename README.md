@@ -232,7 +232,9 @@ GraphQL API KEY: da2-vlthvw5qcffxzl2hibgowv3rdq
 #### Install and configure the Amplify CLI
 •	The Amplify Command Line Interface (CLI) is a unified toolchain to create AWS cloud services for your app.You can follow one of the given two ways to install the Amplify CLI.
 
-##### Method 1: https://www.youtube.com/watch?v=fWbM5DLh25U&t=45s
+##### Method 1: Installing & Configuring the AWS Amplify CLI Youtube
+[![Installing & Configuring the AWS Amplify CLI](https://img.youtube.com/vi/fWbM5DLh25U/0.jpg)](https://www.youtube.com/watch?v=fWbM5DLh25U)
+
 ##### Method 2: Follow the instructions below.
 
 ##### NPM
@@ -716,6 +718,6 @@ Finally, Now your app is available online.
 
 * Once you published, your terminal will display your app URL hosted on a **amplifyapp.com** domain. When you make extra changes to publish, just re-run the **amplify publish** command.
 * You may get an "AccessDenied" error if your app's distribution directory is not set well. To fix this, please change the distribution directory via **amplify configure project** and then re-run **amplify publish**.
-* To view your app and hosting configuration in the **Amplify Console**, run the amplify console command.
+* To view your app and hosting configuration in the Amplify Console, run the **amplify console** command.
 
 Run **amplify delete** command to delete all the environments of the project from the cloud and wipe out all the local files created by Amplify CLI. Now, to see changes, run **amplify status** command.
