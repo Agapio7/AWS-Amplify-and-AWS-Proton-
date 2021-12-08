@@ -2,11 +2,28 @@
 
 ### Overview
 
-### AWS Amplify is a JavaScript library for frontend and mobile developers building cloud-enabled applications
+**AWS Amplify is a JavaScript library for frontend and mobile developers building cloud-enabled applications.**
 
 * Set of purpose-built architecture and features that provides frontend web and mobile developers to quickly and easily build full-stack applications on AWS.
 
-* Amplify provides two services: 
+
+### How does Amplify works ?
+
+AWS Amplify is made up of three major parts:libraries, UI and CLI toolchain
+ 
+ ### Libraries
+* Add, integrate and interact with AWS cloud services through this component. 
+
+* Provides safe authentication, storage of files, data stocking, serverless APIs, analytics, push notifications, AR/VR, and multiple other applications’ features.
+
+
+### User Interface (UI)
+ * Amplify UI is an open-source design system with cloud-connected components and primitives.
+* It simplifies building accessible, performant, and beautiful applications in React, Angular, and Vue.
+### Command Line Interface (CLI) Toolchain
+* A unified toolchain to create, integrate, and manage the AWS cloud services for your app.
+
+## Amplify provides two services: 
 
 
 * Amplify Hosting : a git-based workflow for hosting full-stack serverless web apps with continuous deployment.
@@ -20,23 +37,15 @@
 
 * It handles the common SPA frameworks, for example, React, Angular, Vue.js, Ionic, and Ember, as well as static site generators like Gatsby, Eleventy, Hugo, VuePress, and Jekyll.
 
-* It manages production and staging environments for your frontend and backend by connecting new branches. 
+* It manages production and staging environments for your frontend and backend by connecting new branches. It connects your application to a custom domain, deploy and host SSR web apps created by using the Next.js. framework.
 
-*	It connects your application to a custom domain, deploy and host SSR web apps created by using the Next.js. framework.
+*	It also previews changes during code reviews by setting up pull request previews and improve your app quality with end to end tests. In addition,It protects password on your web app so we can work on new features without making them publicly accessible. 
 
-*	It also previews changes during code reviews by setting up pull request previews and improve your app quality with end to end tests. 
+*	It set up rewrites and redirects to maintain SEO rankings and route traffic as your client app required. Its instant cache invalidations assure your app is updated instantly on every code commit.
 
-*	It protects password on your web app so we can work on new features without making them publicly accessible. 
+*	Its atomic deployments remove maintenance windows by ensuring that the web app is updated only after the entire deployment completes. such eliminates conditions where files fail to upload well.We get screen shots of our app rendered on different mobile devices to identify layout issues.
 
-*	It set up rewrites and redirects to maintain SEO rankings and route traffic as your client app required.
-
-* Its instant cache invalidations assure your app is updated instantly on every code commit.
-
-*	Its atomic deployments remove maintenance windows by ensuring that the web app is updated only after the entire deployment completes. such eliminates conditions where files fail to upload well.
-
-We get screen shots of our app rendered on different mobile devices to identify layout issues.
-
-### Studio
+### Amplify Studio
 
 *	In Studio amplify, Visual data modeling helps us to keep attention on our domain-specific objects instead of cloud infrastructure.
 
@@ -53,6 +62,7 @@ We get screen shots of our app rendered on different mobile devices to identify 
 * Finally, it binds your cloud-connected backend to your frontend UI in a simple way
 
 ## AWS Amplify Set Up
+
 * Get log in to the Amplify Console or choose Get Started at the top of the page in AWS Amplify home page.
 
 ![image](https://user-images.githubusercontent.com/91752852/145031206-8e6f2360-0f3b-4c3a-82e8-bbb10c3d0922.png)
