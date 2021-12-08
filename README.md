@@ -57,7 +57,7 @@ We get screen shots of our app rendered on different mobile devices to identify 
 
 ![image](https://user-images.githubusercontent.com/91752852/145031230-ee3b5521-8037-4519-bd37-6b35b4e690f9.png)
 
-* Once you started from the All apps page, select New app and choose Host web app in the upper right corner of the page.
+* Once you started from the **All apps** page, select **New app** and choose **Host web app** in the upper right corner of the page.
 
 ![image](https://user-images.githubusercontent.com/91752852/145031450-73be9200-8c11-4972-9926-411df61d658f.png)
 
@@ -83,7 +83,7 @@ We get screen shots of our app rendered on different mobile devices to identify 
 
 ![image](https://user-images.githubusercontent.com/91752852/145031757-008b94e7-c6b3-4bc4-be85-945a06d23dc4.png)
 
-* Save and Deploy: Once you review all of your settings well. Select Save and deploy to deploy your web app to a global content delivery network (CDN). The front end build typically takes few minutes or more based on size of the app.
+* Save and Deploy: Once you review all of your settings well. Select **Save and deploy** to deploy your web app to a global content delivery network (CDN). The front end build typically takes few minutes or more based on size of the app.
 A build has the following stages:
 
 #### Provision
@@ -122,29 +122,29 @@ A build has the following stages:
 *	With AWS account you can deploy Amplify Studio to start using all Amplify features, including Data Store, user authentication and authorization, and file storage.
 * 	After you deploy a backend in Amplify, you can launch Amplify Studio from your Amplify app. Your whole team can use Studio to add new features, update app data, and manage users and groups.
 
-#### We can get started with a new Amplify app as following steps:
+#### We can get started with a **new Amplify app** as following steps:
 
-* First Sign in to the AWS Management Console and open AWS Amplify. Choose Create app backend.
-* Enter a name for your app and choose Confirm deployment. This deploys a default staging backend environment.
-* On the application information page, choose the Backend environments tab.
-* Choose Launch Studio. This automatically logs you in to Amplify Studio.
+* First Sign in to the AWS Management Console and open AWS Amplify. Choose **Create app backend**.
+* Enter a name for your app and choose **Confirm deployment**. This deploys a default **staging** backend environment.
+* On the application information page, choose the **Backend environments** tab.
+* Choose **Launch Studio**. This automatically logs you in to Amplify Studio.
 * If you already have an existing backend environment, you can enable Amplify Studio from the console.
 
-In case, you already have an existing backend environment, you can enable Amplify Studio from the console. We can get started from an existing Amplify app as given below.
+In case, you already have an existing backend environment, you can enable Amplify Studio from the console. We can get started from an **existing Amplify app** as given below.
 
-* First, Sign in to the AWS Management Console and open AWS Amplify. Or, enter amplify console from the Amplify Command Line Interface (CLI).
-* In the navigation pane, select Amplify Studio settings.
-* Then, turn on Enable Amplify Studio.
-* In the Backend environments section, choose Launch Studio. This automatically logs you in to Amplify Studio where you can use all the Studio capabilities.
+* First, Sign in to the **AWS Management Console** and open **AWS Amplify**. Or, enter amplify console from the Amplify Command Line Interface (CLI).
+* In the navigation pane, select **Amplify Studio settings**.
+* Then, turn on **Enable Amplify Studio**.
+* In the **Backend environments** section, choose Launch Studio. This automatically logs you in to Amplify Studio where you can use all the Studio capabilities.
 
 ### Getting started with fullstack continuous deployments
 
-* Please Log in to the Amplify Console and choose Get Started under Deploy. In the below screen, choose From fullstack samples. And you can also start your own adventure by building a backend from scratch by installing the Amplify CLI.
+* Please Log in to the Amplify Console and choose **Get Started** under **Deploy**. In the below screen, choose **From fullstack samples**. And you can also start your own adventure by building a backend **from scratch** by installing the Amplify CLI.
 
 ![image](https://user-images.githubusercontent.com/91752852/145033504-b56df110-63b9-4812-87e6-2fb197d144d0.png)
 
 
-* After that, you have to choose the Authentication Starter and Deploy app. You will be questioned to connect your GitHub account. Connecting your GitHub account permits the Amplify Console to create a fork of the repository in your account, deploy the AWS backend services, and build and deploy the frontend. Further, you will need to create a service role to deploy backend resources to AWS.
+* After that, you have to choose the **Authentication Starter** and **Deploy app**. You will be questioned to connect your GitHub account. Connecting your GitHub account permits the Amplify Console to create a fork of the repository in your account, deploy the AWS backend services, and build and deploy the frontend. Further, you will need to **create a service** role to deploy backend resources to AWS.
 
 ![fullstack2](https://user-images.githubusercontent.com/91752852/145033879-0896c329-6c3d-4c02-ab45-e38ad2bc8333.gif)
 
@@ -170,7 +170,7 @@ git clone git@github.com:<username>/create-react-app-auth-amplify.git
 cd create-react-app-auth-amplify
 ```
 
-* From the Backend environments tab, choose Edit backend. As a pre-requisite, follow the information to install and configure the Amplify CLI. The Amplify command line toolchain allows you to edit the backend you just created to add more functionality such as GraphQL/REST APIs, analytics, and storage. Once the Amplify CLI is configured, copy the amplify pull command to connect to this backend from your local machine.
+* From the **Backend environments** tab, choose **Edit backend**. As a pre-requisite, follow the information to install and configure the Amplify CLI. The Amplify command line toolchain allows you to edit the backend you just created to add more functionality such as GraphQL/REST APIs, analytics, and storage. Once the Amplify CLI is configured, copy the amplify pull command to connect to this backend from your local machine.
 
  ```bash
 amplify pull --appId XXXXXXXX --envName devw
