@@ -255,3 +255,18 @@ After that Set up the Amplify CLI. Configure Amplify by running the given comman
 amplify configure
 ```
  * **amplify configure** will ask you to sign into the AWS Console. Then, you're signed in, Amplify CLI will ask you to create an IAM user.
+ *  Following this, create a user with **AdministratorAccess** to your account to provision AWS resources for you like AppSync, Cognito etc.
+
+![user-creation](https://user-images.githubusercontent.com/91752852/145173171-f1f7a624-1315-4938-b698-52d9915cacda.gif)
+
+Once the user is created, Amplify CLI will ask you to provide the **accessKeyId** and the **secretAccessKey** to connect Amplify CLI with your newly created IAM user.
+
+```bash
+Enter the access key of the newly created user:
+? accessKeyId:  # YOUR_ACCESS_KEY_ID
+? secretAccessKey:  # YOUR_SECRET_ACCESS_KEY
+This would update/create the AWS Profile in your local machine
+? Profile Name:  # (default)
+
+Successfully set up the new user.
+```
