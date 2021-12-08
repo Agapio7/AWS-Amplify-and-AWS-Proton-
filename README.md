@@ -223,7 +223,15 @@ GraphQL API KEY: da2-vlthvw5qcffxzl2hibgowv3rdq
 * Use the Amplify GraphQL client to write frontend code that lists and updates the todos. To deploy the updates to your frontend, simply commit your code and a new build will be triggered in the Amplify Console.
 
 
-## Getting started with React
+## Building Serverless Web Applications with React & AWS Amplify
+
+Before we started let's visulize ourselves what we have to do to make app
+* Firstly, we need a front-end app that we will build using React.js. 
+* Secondly, We also want to store the data - DynamoDB with a GraphQL API will manage this for us. 
+* Lastly, we want to have an authorization system and we will let AWS Cognito handle it.
+
+![chrome_ftpDvJLmu5](https://user-images.githubusercontent.com/91752852/145196665-5fe173dc-d8a3-4d0a-a142-e752c96e8ad9.png)
+
 
 ###  Step 1 :Prerequisites
 *	Before launching app in react you must have installed Node.js v12.x or latest version ,npm v5.x or later and git v2.14.1 or updated version. And also you know well using both JavaScript/ES6 and React.
