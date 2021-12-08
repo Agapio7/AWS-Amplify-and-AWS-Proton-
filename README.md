@@ -6,6 +6,29 @@
 
 * Set of purpose-built architecture and features that provides frontend web and mobile developers to quickly and easily build full-stack applications on AWS.
 
+### AWS Amplify features
+
+#### Build: 
+
+* It uses the Amplify Studio or Amplify CLI to configure an app backend, and use the Amplify libraries and UI components to connect our app to our backend.
+
+![chrome_3haaM4KwkT](https://user-images.githubusercontent.com/91752852/145206682-fbcde45c-2405-4546-9d3e-1b34fe386ca5.png)
+
+
+#### Ship
+* it Uses the Amplify console or CLI to host static web applications.
+![image](https://user-images.githubusercontent.com/91752852/145206722-f7a27d64-de24-4498-9b1d-e3b65cb42051.png)
+
+
+#### Scale and manage
+* Use Amplify Studio to manage app users and content.
+![image](https://user-images.githubusercontent.com/91752852/145206750-fdef8ea9-bbd9-4a84-95c5-5a0f1ea927fa.png)
+
+
+#### Tools
+* AWS Amplify provides use case-centric open source libraries in the Amplify Framework to build cloud powered mobile and web apps.
+
+
 
 ### How does Amplify works ?
 
