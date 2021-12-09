@@ -764,3 +764,48 @@ Finally, Now your app is available online.
 * To view your app and hosting configuration in the Amplify Console, run the **amplify console** command.
 
 Run **amplify delete** command to delete all the environments of the project from the cloud and wipe out all the local files created by Amplify CLI. Now, to see changes, run **amplify status** command.
+
+## AWS Proton 
+
+### Overview
+
+* AWS Proton is an automated infrastructure as code provisioning and deployment of serverless and container-based applications.
+* Platform engineering teams can use AWS Proton to connect and coordinate all the different tools needed for infrastructure provisioning, code deployments, monitoring, and updates. 
+* AWS Proton solves difficulties of maintaining hundreds of microservices with constantly changing infrastructure resources and continuous integration/continuous delivery (CI/CD) configurations this by giving platform teams the tools.
+* Teams can manage this issues and enforce consistent standards, while making it easy for developers to deploy their code using containers and serverless technologies
+
+
+### AWS proton features:
+* Automated deployments provide platform teams to create application stacks. Such as the availability of the CI/CD pipeline to developers, can make a request through the API, CLI, or UI to deploy an application immediately.
+* Its Customer-managed environments help to bring your existing shared resources into AWS Proton without re-creating the infrastructure. Since. Developers can deploy to a customer-managed environment and standard environment.
+* AWS Proton gives teams greater flexibility in defining, provisioning, and deploying their services with or without a pipeline. Developers only need to provide the required inputs for their service, and platform teams can leverage AWS Proton’s central management capabilities to ensure that all deployments are up-to-date.
+* AWS Proton supports multi-account infrastructures, which help platform operators configure their architecture securely across multiple AWS accounts. 
+* AWS proton customizes your user interface using the familiar AWS Management Console or CLI through the process of creating and deploying shared resources as environments to which to deploy services. 
+* Proton also gives you end-to-end provisioning support and   deployment infrastructure such as compute, database, and many other resources in a simple and easy way through AWS CloudFormation.
+* AWS Proton upgrades versioning of infrastructure templates and provides developers with updates for out-of-date deployments.
+* AWS Proton establishes tagging and tag-based access control for any AWS Proton resource, including templates, environments, and services. 
+* AWS Proton also tags all provisioned resources automatically with unique identifiers, allowing you to identify all provisioned resources coming from an AWS Proton-specific template or environment.
+* Platform teams use AWS Proton to create a stack presented to their developers as a reusable version-controlled template.
+* Developers log into the AWS Proton console to use published AWS Proton stacks to automate infrastructure provisioning and quickly deploy their application code. 
+* They don’t need to separately provision parts of their stack such as shared resources, CI/CD pipeline, and observability tools.
+
+
+The AWS Proton service works on two automation frameworks:
+
+* An **administrator** creates versioned service templates that define standardized infrastructure and deployment tooling for serverless and container-based applications. 
+* Whereas, **developers** select from the available service templates to automate their application or service deployments.
+
+* AWS Proton identifies all existing service instances that are using an outdated template version. Administrator can request AWS Proton to upgrade them with one click.
+
+ * AWS Proton uses the following infrastructure as code providers: 
+
+**AWS CloudFormation:**
+
+* It’s a service that helps you model and set up your AWS resources by managing your applications that run in AWS.
+
+**Terraform:** 
+
+* Terraform is an open-source infrastructure as code software tool that provides a persistence CLI workflow to manage hundreds of cloud services. 
+* Terraform codifies cloud APIs into declarative configuration files.
+
+
