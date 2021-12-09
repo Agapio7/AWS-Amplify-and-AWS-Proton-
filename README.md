@@ -822,6 +822,175 @@ The AWS Proton service works on two automation frameworks:
 * 3.Administrator creates and register a Service Template with AWS Proton. It defines the related infrastructure, monitoring, and CI/CD resources as well as compatible Environment Templates.
 * 4.Developer selects a registered Service Template and provide a link to your Source code repository.
 * 5.AWS Proton supplies the Service with a CI/CD Pipeline for your Service instances.
-* 6.AWS Proton provisions and manages the Service and the Service Instances that are running the Source code as was defined in the selected Service Template. A Service Instance is an instantiation of the selected Service Template in an Environment for a single stage of a Pipeline .
+* 6.AWS Proton provisions and manages the Service and the Service Instances that are running the Source code as was defined in the selected Service Template. A Service Instance is an instantiation of the selected Service Template in an Environment for a single stage of a Pipeline.
+
+### AWS Proton Demo
+* Open AWS proton Service page in the **AWS console** and click **Get started**.
+![image](https://user-images.githubusercontent.com/91752852/145392564-91811ad1-f4ea-4f2c-af06-202f9087c9de.png)
+
+* Before development team started proton to deploy services we will need to create a service template.
+* We need to create an environment template. Click **create environment template**.
+![image](https://user-images.githubusercontent.com/91752852/145392664-b2e358d6-9a1d-4e28-bf28-64deb3ab9d36.png)
+
+![image](https://user-images.githubusercontent.com/91752852/145392715-11cdd872-ddfc-49ff-a54c-314a91e65974.png)
+
+* Under template detail headline. Give proton-demo in **Template name**.
+* On **Template display name-optional type **  Proton  demo
+* Under **Template description-optional** write An environment template for AWS proton demo.
+* Click **create environment template**.
+![image](https://user-images.githubusercontent.com/91752852/145392878-65e1de55-7b41-47fa-bff6-c3c72f4998e8.png)
+
+* Next we have to create  a service template.
+* Click create a service template  on  the green screen.
+
+![image](https://user-images.githubusercontent.com/91752852/145393039-4ce4fa2e-4dd0-4c1f-bc96-3248fd391a3b.png)
+
+* Then, create service template page will open.
+![image](https://user-images.githubusercontent.com/91752852/145393116-080413fc-3363-491c-9741-9546073c413d.png)
+
+* Among two options,Choose **Use of our sample template bundles** under **Template bundle source**.
+* In sample template bundle, choose **fargate-service** in Templates bundle source.
+* Under template details, give proton-demo in **Template name**.
+* On **Template display name-optional **type Proton Demo.
+* Under **Template description-optional** write An environment template for AWS proton demo.
+
+![image](https://user-images.githubusercontent.com/91752852/145393315-3c86562a-fd0e-409f-9173-0eb2447e860d.png)
+
+* In **Compatible environment templates**, Choose Proton Demo as environment template.
+* Click **create service template.**
+
+![image](https://user-images.githubusercontent.com/91752852/145393410-97f7d117-128a-40ce-8586-283f115a6acd.png)
+* Finally, service template is created. 
+![image](https://user-images.githubusercontent.com/91752852/145393464-b55158fb-e878-41e8-ba6f-dfe0f3c2cb01.png)
+
+* Now we have to configure account roles. Click configure account roles in green screen as give below.
+![image](https://user-images.githubusercontent.com/91752852/145393530-1c3ef5c8-a55d-4b58-bd96-59958147cbeb.png)
+
+* Now, you will see **Configure CI/CD pipeline** role page. Under pipeline service role choose New service role.
+* Give **ProtonCicdPipelineServiceRole** in Pipeline service role name.
+* Click **save changes** at the button of the page.
+
+![image](https://user-images.githubusercontent.com/91752852/145393717-8259e585-0e47-4485-a981-eefcd65e4972.png)
+
+![image](https://user-images.githubusercontent.com/91752852/145393734-01c55965-d831-4e07-9d05-d44cac326617.png)
+
+*Next, click on **create an environment** as below.
+![image](https://user-images.githubusercontent.com/91752852/145393812-1d2ca3e4-1030-48c3-a6f9-b027ce9220f6.png)
+* Choose a **Proton Demo** as environment templates and click **configure **at the right corner.
+
+![image](https://user-images.githubusercontent.com/91752852/145393897-2b78cf42-e3d1-4d6e-ad54-10af8e69ccce.png)
+
+In **Configure environment**
+*	Under **Environment setting**, Named **staging **as **Environment name.**
+* Give some description in **Environment description-optional.**
+* Choose **Exiting service role** in **Environment roles.**
+* Give **ProtonCicdPipelineServiceRole** in Environment role name.
+
+![image](https://user-images.githubusercontent.com/91752852/145394199-78d73088-29b2-4b9f-83a9-c244f1c06969.png)
+
+* Then, click **Next.**
+
+![image](https://user-images.githubusercontent.com/91752852/145394306-0c6f51d3-1ca6-4aca-8683-66f69f5b780a.png)
+
+* Skip the **configure custom settings** and click **Next**.
+
+![image](https://user-images.githubusercontent.com/91752852/145394412-d6fcfd19-03d7-452d-8e8c-d488426d05e4.png)
+* Now, Review page opens.
+
+![image](https://user-images.githubusercontent.com/91752852/145394467-a4f829b5-17ec-4f7a-b43a-372964def39c.png)
+
+* Click Create at the bottom of the Review Page.
+![image](https://user-images.githubusercontent.com/91752852/145394517-8f617dbf-bebc-4e3a-b181-e62f9ffd05b5.png)
+
+* Now, the deployment is created now in progress. Let’s repeat the process to create a production environment and specify some CIDR ranges this time.
+![image](https://user-images.githubusercontent.com/91752852/145394560-4180ca28-a531-481f-9e7a-beada320f963.png)
+
+* Click Environments as given.
+![image](https://user-images.githubusercontent.com/91752852/145394596-f7a37da7-b951-4d36-b9f4-f047b5babe55.png)
+
+* Click **create environment** on the right corner of the Environements page.
+![image](https://user-images.githubusercontent.com/91752852/145394671-361da22c-6afd-4e67-b569-2993670917c3.png)
+* Choose Proton Demo and click configure.
+![image](https://user-images.githubusercontent.com/91752852/145394741-482c8cc0-825e-406d-9241-0ab82f1fe099.png)
+
+* In Configure environment page, under Environment Setting Name production as Environment name with its description with exiting service role and same Environment role name as presented below.
+
+![image](https://user-images.githubusercontent.com/91752852/145394800-8ea96f29-9d3f-4b4e-8948-18d344757ef0.png)
+
+* After that, click Next below the page.
+
+![image](https://user-images.githubusercontent.com/91752852/145394853-83a8c016-d01a-4a12-a960-853b3c7bf9ab.png)
+
+* Now, fill up the Configure custom setting as below and click Next.
+
+![image](https://user-images.githubusercontent.com/91752852/145394932-c6da16c0-2a6e-4f4b-9cf3-cdf56ca705fd.png)
+
+* Review page will open and click Create.
+![image](https://user-images.githubusercontent.com/91752852/145394983-090a0187-c288-439d-89c5-478bca5b9469.png)
+
+![image](https://user-images.githubusercontent.com/91752852/145395006-108f3014-4682-4329-ae87-88617f550ab9.png)
+
+* Now production environment is created as given below.
+
+![image](https://user-images.githubusercontent.com/91752852/145395056-31860275-c273-43e2-b2a6-d5ca0cbccf4d.png)
+* Creations of the sample environments should take a few minutes to complete. For longer deployment we can switch over to the CloudFormation console to follow its progress.
+* Now, the environment is ready and now just needs to service to run in it. Let’s look from the perspective of our developer team.
+
+![image](https://user-images.githubusercontent.com/91752852/145395125-0baa52c0-5038-4391-93f5-b4f59b437dbd.png)
+* Let’s logged into a separate AWS proton developer role which has default AWS proton developer, access IAM policy applied to it and read only access to AWS cloud formation and a variety service consumed by our sample application such as Amazon ECS.
+
+![image](https://user-images.githubusercontent.com/91752852/145395178-aeec4e8b-8f09-4f5c-9336-14d5a2487c9b.png)
+Let’s create our first service.
+*	Go to Services in the proton service page. Click create service.
+
+![image](https://user-images.githubusercontent.com/91752852/145395255-c0729050-45f6-48db-8bc5-59a21905d2cd.png)
+
+* Choose a service templates as Proton Demo and click Configure.
+
+![image](https://user-images.githubusercontent.com/91752852/145395308-168a36bd-d795-415f-8310-40e35ed76e9c.png)
+
+•	In Configure service, we will give it a name and description then configure the repository setting.
+
+![image](https://user-images.githubusercontent.com/91752852/145395336-3bd0249e-b6be-4580-9766-e6300c14752a.png)
+
+* For this demo – we already have a github repo connection established that allows us to detect sources changes.
+* To configure your own, click Create connection and follow the steps.
+![image](https://user-images.githubusercontent.com/91752852/145395426-f3c10db9-a0db-479a-8ed3-cf173d189467.png)
+
+* In this case, we will have it deploy from the ‘main’ branch of our forked /**aws-proton-sample-fargate-service-repository** using existing AWS Proton Demo repository connection.
+* Click Next as below.
+
+![image](https://user-images.githubusercontent.com/91752852/145395549-5080f1f4-93b3-4fd9-8ad7-13ad49dd6666.png)
+
+* In configure custom setting, configure two services instances. One for each environment that we created earlier.
+First, we will create a ‘staging’ service instance that will deploy to the staging environment using whichever defaults are specified in the service template.
+
+![image](https://user-images.githubusercontent.com/91752852/145395649-315e31c8-feac-4fe9-937b-ddd26c259a04.png)
+* Then, we will also add production service. Create 3 medium-sized fargate tasks instead. Finally put default pipeline inputs.
+* 	Click Next.
+![image](https://user-images.githubusercontent.com/91752852/145395935-924d7416-69da-4097-9e96-b1157a002b8d.png)
+* Proton will create the service and service deployment pipeline. We can follow the progress using the CloudFormation stack events log.
+![image](https://user-images.githubusercontent.com/91752852/145396014-75f1029c-ffbf-4f57-a0f3-9d990d39c6b6.png)
+* Then, we can watch the deployment pipeline.
+![image](https://user-images.githubusercontent.com/91752852/145396068-c1a2a167-3ac3-4f66-9d1b-703e3491abb0.png)
+* Now that our application is deployed, making changes is just a matter of pushing new commits to our repository which will be detected by code pipeline and begin new deployment cycle. Since, all infrastructure is in our account, we have full capacity to manage update and troubleshoot as required.
+
+![image](https://user-images.githubusercontent.com/91752852/145396122-a0b0fff4-0ab8-453b-809b-55f04f1c82c8.png)
+![image](https://user-images.githubusercontent.com/91752852/145396142-199f3cba-2602-4ba3-9146-dd931130954c.png)
+* For example, platform operators can review Cloud Formation stack events for issues when deploying environments.
+
+![image](https://user-images.githubusercontent.com/91752852/145396201-8274dc1d-97f5-4d05-97b9-f2ba05a41113.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
