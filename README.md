@@ -766,6 +766,8 @@ Finally, Now your app is available online.
 Run **amplify delete** command to delete all the environments of the project from the cloud and wipe out all the local files created by Amplify CLI. Now, to see changes, run **amplify status** command.
 
 ## AWS Proton 
+![image](https://user-images.githubusercontent.com/91752852/145392218-8fec770e-4a2c-437c-9d8a-bb17cccff78b.png)
+
 
 ### Overview
 
@@ -807,5 +809,19 @@ The AWS Proton service works on two automation frameworks:
 
 * Terraform is an open-source infrastructure as code software tool that provides a persistence CLI workflow to manage hundreds of cloud services. 
 * Terraform codifies cloud APIs into declarative configuration files.
+
+### AWS proton Core Concept
+
+![image](https://user-images.githubusercontent.com/91752852/145392059-98102b1f-d290-409e-b9ae-f56bf5707a58.png)
+
+
+
+* 1.Identify input parameters.
+
+* 2.Create a schema file that defines your input parameters.
+* 3.Administrator creates and register a Service Template with AWS Proton. It defines the related infrastructure, monitoring, and CI/CD resources as well as compatible Environment Templates.
+* 4.Developer selects a registered Service Template and provide a link to your Source code repository.
+* 5.AWS Proton supplies the Service with a CI/CD Pipeline for your Service instances.
+* 6.AWS Proton provisions and manages the Service and the Service Instances that are running the Source code as was defined in the selected Service Template. A Service Instance is an instantiation of the selected Service Template in an Environment for a single stage of a Pipeline .
 
 
