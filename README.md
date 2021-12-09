@@ -949,7 +949,7 @@ Let’s create our first service.
 
 ![image](https://user-images.githubusercontent.com/91752852/145395308-168a36bd-d795-415f-8310-40e35ed76e9c.png)
 
-•	In Configure service, we will give it a name and description then configure the repository setting.
+* In Configure service, we will give it a name and description then configure the repository setting.
 
 ![image](https://user-images.githubusercontent.com/91752852/145395336-3bd0249e-b6be-4580-9766-e6300c14752a.png)
 
@@ -980,6 +980,17 @@ First, we will create a ‘staging’ service instance that will deploy to the s
 * For example, platform operators can review Cloud Formation stack events for issues when deploying environments.
 
 ![image](https://user-images.githubusercontent.com/91752852/145396201-8274dc1d-97f5-4d05-97b9-f2ba05a41113.png)
+* Developers can see details on code deployment within code build and code pipelines and we can make changes to the underlying environments or services by creating a new or a major version of the corresponding templates, providing an updated template and updating an environment or service instances to the latest version. Aws gives us control and flexibility. Everyone can focus or innovating your business.
+
+![image](https://user-images.githubusercontent.com/91752852/145401807-0c9a7b15-8287-4c80-9a48-dccb9613df6e.png)
+![image](https://user-images.githubusercontent.com/91752852/145401823-f2c545e5-168b-4cd2-b9f1-66e089f37227.png)
+![image](https://user-images.githubusercontent.com/91752852/145401852-8ee04da6-3a4d-4c5f-a20a-4179d13fa601.png)
+![image](https://user-images.githubusercontent.com/91752852/145401871-07e4f122-f06f-49c8-9980-809c6c554161.png)
+![image](https://user-images.githubusercontent.com/91752852/145401903-78ca6216-c266-43ea-8b63-ffbc34a3f696.png)
+![image](https://user-images.githubusercontent.com/91752852/145401960-e9c73f81-b7a1-438f-8324-350c39f5ee7d.png)
+![image](https://user-images.githubusercontent.com/91752852/145401978-025e286d-ea88-4293-a4b8-76415a2cc109.png)
+
+
 
 
 
