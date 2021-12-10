@@ -884,7 +884,7 @@ AWS Proton provisions and manages the Service and the Service Instances that are
 
 ![image](https://user-images.githubusercontent.com/91752852/145520531-12d212bc-63fd-4c64-a815-22cc972bcda7.png)
 
-   ![image](https://user-images.githubusercontent.com/91752852/145520607-f7175b07-a7dd-4f38-977c-0d4017c4c9b7.png)
+ ![image](https://user-images.githubusercontent.com/91752852/145520607-f7175b07-a7dd-4f38-977c-0d4017c4c9b7.png)
  An administrator selects an environment template with AWS Proton and provide values for required input parameters.
  
  ![image](https://user-images.githubusercontent.com/91752852/145520767-c87867ae-b377-4ff4-a576-b01b384d8e99.png)
@@ -946,7 +946,7 @@ Under Use one of our sample bundles, the sample bundle consists of a **manifest.
 ![image](https://user-images.githubusercontent.com/91752852/145513517-0ad1b580-514b-44d7-a974-cde5ea4ef9b2.png)
 
 * Under template detail headline. Give proton-demo in **Template name**.
-* On **Template display name-optional type **  Proton  demo
+* On **Template display name-optional type**  Proton  demo
 * Under **Template description-optional** write An environment template for AWS proton demo.
 * Click **create environment template**.
 ![image](https://user-images.githubusercontent.com/91752852/145392878-65e1de55-7b41-47fa-bff6-c3c72f4998e8.png)
@@ -962,7 +962,7 @@ Under Use one of our sample bundles, the sample bundle consists of a **manifest.
 * Among two options,Choose **Use of our sample template bundles** under **Template bundle source**.
 * In sample template bundle, choose **fargate-service** in Templates bundle source.
 * Under template details, give proton-demo in **Template name**.
-* On **Template display name-optional **type Proton Demo.
+* On **Template display name-optional** type Proton Demo.
 * Under **Template description-optional** write An environment template for AWS proton demo.
 
 ![image](https://user-images.githubusercontent.com/91752852/145393315-3c86562a-fd0e-409f-9173-0eb2447e860d.png)
@@ -985,9 +985,9 @@ Under Use one of our sample bundles, the sample bundle consists of a **manifest.
 
 ![image](https://user-images.githubusercontent.com/91752852/145393734-01c55965-d831-4e07-9d05-d44cac326617.png)
 
-*Next, click on **create an environment** as below.
+* Next, click on **create an environment** as below.
 ![image](https://user-images.githubusercontent.com/91752852/145393812-1d2ca3e4-1030-48c3-a6f9-b027ce9220f6.png)
-* Choose a **Proton Demo** as environment templates and click **configure **at the right corner.
+* Choose a **Proton Demo** as environment templates and click **configure** at the right corner.
 
 ![image](https://user-images.githubusercontent.com/91752852/145393897-2b78cf42-e3d1-4d6e-ad54-10af8e69ccce.png)
 
@@ -1074,7 +1074,7 @@ Let’s create our first service.
 ![image](https://user-images.githubusercontent.com/91752852/145395549-5080f1f4-93b3-4fd9-8ad7-13ad49dd6666.png)
 
 * In configure custom setting, configure two services instances. One for each environment that we created earlier.
-First, we will create a ‘staging’ service instance that will deploy to the staging environment using whichever defaults are specified in the service template.
+* First, we will create a ‘staging’ service instance that will deploy to the staging environment using whichever defaults are specified in the service template.
 
 ![image](https://user-images.githubusercontent.com/91752852/145395649-315e31c8-feac-4fe9-937b-ddd26c259a04.png)
 * Then, we will also add production service. Create 3 medium-sized fargate tasks instead. Finally put default pipeline inputs.
