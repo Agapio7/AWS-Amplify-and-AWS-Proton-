@@ -82,7 +82,24 @@ AWS Amplify is made up of three major parts:libraries, UI and CLI toolchain
 
 *	It also customizes your frontend UI with themes to apply global styles to your app's components. It also configures and test your UI components directly within Studio to view their update and display data.
 
-* Finally, it binds your cloud-connected backend to your frontend UI in a simple way
+* Finally, it binds your cloud-connected backend to your frontend UI in a simple way.
+
+### Advantages and disadvantages of AWS Amplify
+
+#### Advantages of AWS Amplify
+* AWS Amplify offers many free and impressive levels that offer several advantages and zero costs.
+* Development is Easy and UI driven.
+* AWS enhances app performance by providing built-in support for backend management.
+8 Its web-based analysis Dashboard for developers, designers, and project managers is highly applicable.
+* AWS Amplify payment model is very flexible and cost-effective and you have to pay only the service you use.
+
+#### Disadvantages of AWS Amplify
+
+* AWS Amplify constantly changes, new changes and features are consistently implemented. Since, users have to UpToDate with recent versions.
+* AWS Amplify is a managed service, the end-user have less power controlled over the environment and the packages installed which can affect your websites.
+* Sometimes it is rather difficult for new learner to find the right documentation method.
+* When using AWS Amplify, you cannot distribute load balancers.
+
 
 ## AWS Amplify Set Up
 
