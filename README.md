@@ -351,7 +351,7 @@ Further, we  will set up the app and initialize Amplify.
 
 #### Create a new React App
 
-* To set up the project, first we'll  create a new React app with create-react-app, a CLI tool used to bootstrap a React app following current best practices. Then, we'll add Amplify and initialize a new project. From your projects directory, run the below commands:
+* To set up the project, first we'll create a new React app with [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html), a CLI tool used to bootstrap a React app following current best practices. Then, we'll add Amplify and initialize a new project. From your projects directory, run the below commands:
 
 ```bash
 npx create-react-app react-amplified
