@@ -831,12 +831,23 @@ The AWS Proton service works on two automation frameworks:
 
 
 
-* 1.Identify input parameters.
-* 2.Create a schema file that defines your input parameters.
-* 3.Administrator creates and register a Service Template with AWS Proton. It defines the related infrastructure, monitoring, and CI/CD resources as well as compatible Environment Templates.
-* 4.Developer selects a registered Service Template and provide a link to your Source code repository.
-* 5.AWS Proton supplies the Service with a CI/CD Pipeline for your Service instances.
-* 6.AWS Proton provisions and manages the Service and the Service Instances that are running the Source code as was defined in the selected Service Template. A Service Instance is an instantiation of the selected Service Template in an Environment for a single stage of a Pipeline.
+![image](https://user-images.githubusercontent.com/91752852/145521437-47fb488a-6968-4297-a7c9-08e7cd41cfc8.png)
+Identify input parameters.
+
+![image](https://user-images.githubusercontent.com/91752852/145521241-d6559f35-0b85-47a2-86bd-e06aa00f7e9b.png)
+Create a schema file that defines your input parameters.
+
+![image](https://user-images.githubusercontent.com/91752852/145521261-1b439c55-37b6-4345-94ee-e4eec332d3f0.png)
+Administrator creates and register a Service Template with AWS Proton. It defines the related infrastructure, monitoring, and CI/CD resources as well as compatible Environment Templates.
+
+![image](https://user-images.githubusercontent.com/91752852/145521274-cf3c8674-dddb-44d8-9477-85ad3f5096af.png)
+Developer selects a registered Service Template and provide a link to your Source code repository.
+
+![image](https://user-images.githubusercontent.com/91752852/145521298-bf131023-4f8f-4c9b-9467-b182bdd2685a.png)
+AWS Proton supplies the Service with a CI/CD Pipeline for your Service instances.
+
+![image](https://user-images.githubusercontent.com/91752852/145521313-a542a0ed-1e5a-402f-a9f8-9f8ea36b2f13.png)
+AWS Proton provisions and manages the Service and the Service Instances that are running the Source code as was defined in the selected Service Template. A Service Instance is an instantiation of the selected Service Template in an Environment for a single stage of a Pipeline.
 
 ### AWS proton Working Mechanism
 
