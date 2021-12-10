@@ -865,6 +865,26 @@ As developer or administrator selects a service template with AWS Proton and pro
  ![image](https://user-images.githubusercontent.com/91752852/145520809-412dff38-49b8-4909-a51b-075644e8b387.png)
 AWS Proton uses the service template, and both your service and selected environment parameter values to provision your service.
 
+### AWS Terminology
+
+* The **environment template** defines shared infrastructure used by multiple applications or resources. 
+*	The **service template** defines the type of infrastructure that's needed to deploy and maintain a single application or microservice in an environment.
+* An **AWS Proton service** is an instantiation of a service template, which normally includes several service instances and a pipeline.
+* An **AWS Proton service instance** is an instantiation of a service template in a specific environment.
+* **Service instance** is provisioned infrastructure that supports an application or microservice in an environment.
+* **Service** is the provisioned infrastructure that's needed to deploy and maintain an application or microservice in an environment.
+* **Schema file** defines infrastructure as code file input parameters.
+* **Service pipeline** is the provisioned infrastructure that supports a pipeline.
+* **Service template bundle:**
+A schema file that defines infrastructure as code (IaC) input parameters.
+An IaC file that defines the infrastructure that's needed to deploy and maintain an application or microservice in an environment.
+An IaC file that defines the service pipeline infrastructure and a manifest file that lists the IaC file.
+* **Environment template bundle**
+A schema file that defines infrastructure as code input parameters.
+An infrastructure as code (IaC) file that defines shared infrastructure, such as a VPC or cluster, that is used by multiple applications or resources.
+A manifest file that lists the IaC file.
+
+
 
 ### AWS Proton Demo
 * Open AWS proton Service page in the **AWS console** and click **Get started**.
