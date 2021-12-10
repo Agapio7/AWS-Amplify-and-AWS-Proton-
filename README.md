@@ -774,7 +774,8 @@ Run **amplify delete** command to delete all the environments of the project fro
 * AWS Proton is an automated infrastructure as code provisioning and deployment of serverless and container-based applications.
 * Platform engineering teams can use AWS Proton to connect and coordinate all the different tools needed for infrastructure provisioning, code deployments, monitoring, and updates. 
 * AWS Proton solves difficulties of maintaining hundreds of microservices with constantly changing infrastructure resources and continuous integration/continuous delivery (CI/CD) configurations this by giving platform teams the tools.
-* Teams can manage this issues and enforce consistent standards, while making it easy for developers to deploy their code using containers and serverless technologies
+* Teams can manage this issues and enforce consistent standards, while making it easy for developers to deploy their code using containers and serverless technologies.
+
 
 
 ### AWS proton features:
@@ -809,6 +810,20 @@ The AWS Proton service works on two automation frameworks:
 
 * Terraform is an open-source infrastructure as code software tool that provides a persistence CLI workflow to manage hundreds of cloud services. 
 * Terraform codifies cloud APIs into declarative configuration files.
+
+### Pros and Cons of AWS Proton:
+
+
+#### Pros of AWS Proton:
+
+* Awesome decoupling of infrastructure code and developer code.
+* Best for typical AWS architectures once you can logically define resources for an environment and services. After, everything is configured, you need only a few Ops support and give most focus on development.
+
+* Good for  complex enterprise architecture.
+
+#### Cons of AWS Proton:
+* In the current state proper configuration of environments and services is overhead and workarounds may be required to make things working.
+* For small serverless applications, AWS SAM favors well becuase of simple configuration and deploy.
 
 ### AWS proton Core Concept
 
