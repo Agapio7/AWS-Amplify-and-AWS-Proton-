@@ -837,15 +837,19 @@ The AWS Proton service works on two automation frameworks:
 Under Use one of our sample bundles, the sample bundle consists of a **manifest.yaml** file which lists the file used to define an environment ‘s infrastructure a **schema. yaml** which defines the input parameters used in the infrastructure templates and a **cloudformation.yaml** infrastructure file which defines the infrastructure itself. We also have the option of providing own template bundles which will build custom environment according to organization best practices.
 
 * proton file structure
+
 ![image](https://user-images.githubusercontent.com/91752852/145513431-b4cc3684-e474-42f6-879b-bd65bfc5f31a.png)
 
 * manifest.yaml
+
 ![image](https://user-images.githubusercontent.com/91752852/145513460-0c29afc8-11a8-40a0-9ac0-ca9baa06e068.png)
 
 * Schema.yaml
+
 ![image](https://user-images.githubusercontent.com/91752852/145513487-27ee92af-17ef-42ee-bdff-ce9aad32695a.png)
 
 * Cloudformation.yaml
+
 ![image](https://user-images.githubusercontent.com/91752852/145513517-0ad1b580-514b-44d7-a974-cde5ea4ef9b2.png)
 
 * Under template detail headline. Give proton-demo in **Template name**.
