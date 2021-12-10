@@ -295,8 +295,12 @@ Before we started let's visulize ourselves what we have to do to make app
 
 
 ###  Step 1 :Prerequisites
-*	Before launching app in react you must have installed Node.js v12.x or latest version ,npm v5.x or later and git v2.14.1 or updated version. And also you know well using both JavaScript/ES6 and React.
-*	Then you need to have or create AWS account.
+*	Before launching app in react you must have installed [Node.js v12.x](https://nodejs.org/en/
+) or latest version ,[npm v5.x](https://www.npmjs.com/) or later and [git v2.14.1](https://git-scm.com/
+) or updated version. And also you know well using both JavaScript/ES6 and React.
+
+* Then you need to have or create [AWS account](https://portal.aws.amazon.com/billing/signup?redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start
+).
 
 #### Install and configure the Amplify CLI
 •	The Amplify Command Line Interface (CLI) is a unified toolchain to create AWS cloud services for your app.You can follow one of the given two ways to install the Amplify CLI.
