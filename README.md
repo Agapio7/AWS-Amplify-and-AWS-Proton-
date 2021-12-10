@@ -126,6 +126,7 @@ AWS Amplify is made up of three major parts:libraries, UI and CLI toolchain
 ![image](https://user-images.githubusercontent.com/91752852/145031494-630255eb-e239-40c6-8634-9933865872c5.png)
 
 * After that, you can connect the repository service provider, choose a repository, and then choose a corresponding branch to build and deploy.
+
 ![image](https://user-images.githubusercontent.com/91752852/145031552-b38ad2ad-c855-4864-acf8-21d2fb75e263.png)
 
 * Confirm build settings for the front end: For the selected branch, Amplify inspects your repository to automatically detect the sequence of build commands to be executed.
