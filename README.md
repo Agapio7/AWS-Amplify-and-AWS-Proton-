@@ -1102,6 +1102,32 @@ First, we will create a ‘staging’ service instance that will deploy to the s
 ![image](https://user-images.githubusercontent.com/91752852/145401978-025e286d-ea88-4293-a4b8-76415a2cc109.png)
 
 
+### Reference
+
+* Amazon Web Services (2019) Deploy a ReactJS app to the AWS Amplify Console. Available at: https://www.youtube.com/watch?v=DHLZAzdT44Y (Accessed: 10 December 2021).
+* Amazon Web Services (2021) AWS Proton Demo - Getting Started. Available at: https://www.youtube.com/watch?v=uQDmHRjQpTU (Accessed: 9 December 2021).
+* Amplify (no date). Available at: https://sandbox.amplifyapp.com/getting-started (Accessed: 7 December 2021).
+* amplify-js | amplify-js (no date). Available at: https://aws-amplify.github.io/amplify-js/api/ (Accessed: 7 December 2021).
+* AWS Amplify Documentation (no date). Available at: https://docs.aws.amazon.com/amplify/ (Accessed: 10 December 2021).
+* AWS Proton — 101 and detailed code example | by Rostyslav Myronenko | Medium (no date). Available at: https://medium.com/@rostyslav.myronenko/* aws-proton-101-and-detailed-code-example-29c816bdd361 (Accessed: 10 December 2021).
+* AWS Proton Demo - Getting Started - YouTube (no date). Available at: https://www.youtube.com/watch?v=uQDmHRjQpTU (Accessed: 9 December 2021).
+* AWS Proton Documentation (no date). Available at: https://docs.aws.amazon.com/proton/ (Accessed: 10 December 2021).
+* Basics - Getting started - AWS Amplify Docs (no date). Available at: https://docs.amplify.aws/console/adminui/start/ (Accessed: 7 December 2021).
+* ‘Building Serverless Applications with AWS Amplify’ (2020) The New Stack, 1 October. Available at: https://thenewstack.io/building-serverless-applications-with-aws-amplify/ (Accessed: 10 December 2021).
+* Fully Managed Application Delivery Service – AWS Proton – Amazon Web Services (no date). Available at: https://aws.amazon.com/proton/ (Accessed: 10 December 2021).
+* Getting started - React - AWS Amplify Docs (no date). Available at: https://docs.amplify.aws/start/q/integration/react/docs.amplify.aws/start/q/integration/react/ (Accessed: 10 December 2021).
+*Getting started with fullstack continuous deployments - AWS Amplify (no date). Available at: https://docs.aws.amazon.com/amplify/latest/userguide/deploy-backend.html (Accessed: 7 December 2021).
+* Liyanarachchi, H. (2021) ‘What is AWS Amplify Framework and how to start with AWS Amplify?’, Nerd For Tech, 10 April. Available at: https://medium.com/nerd-for-tech/what-is-aws-amplify-framework-and-how-to-start-with-aws-amplify-fdbc76431197 (Accessed: 10 December 2021).
+* Myronenko, R. (2021) ‘AWS Proton — 101 and detailed code example’, Medium, 23 July. Available at: https://medium.com/@rostyslav.myronenko/aws-proton-101-and-detailed-code-example-29c816bdd361 (Accessed: 10 December 2021).
+* Serverless Web Application Architecture using React with Amplify: Part1 | by Engineering@ZenOfAI | ZenOf.AI | Medium (no date). Available at: https://medium.com/zenofai/serverless-web-application-architecture-using-react-with-amplify-part1-5b4d89f384f7 (Accessed: 10 December 2021).
+* Source code beautifier / syntax highlighter – convert code snippets to HTML « hilite.me (no date). Available at: http://hilite.me/ (Accessed: 7 December 2021).
+* Terraform by HashiCorp (no date) Terraform by HashiCorp. Available at: https://www.terraform.io/ (Accessed: 9 December 2021).
+* Tirouvengadamany, N. (2020) ‘AWS Proton and AWS Service Catalog’, Medium, 12 December. Available at: https://medium.com/@tnambiappan/aws-proton-and-aws-service-catalog-d95d04621850 (Accessed: 10 December 2021).
+* Tutorial - Next steps - JavaScript - AWS Amplify Docs (no date). Available at: https://docs.amplify.aws/start/getting-started/nextsteps/q/integration/js/docs.amplify.aws/start/getting-started/nextsteps/q/integration/js/ (Accessed: 7 December 2021).
+* Welcome to AWS Amplify - AWS Amplify (no date). Available at: https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html (Accessed: 7 December 2021).
+* What is AWS CloudFormation? - AWS CloudFormation (no date). Available at: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html (Accessed: 9 December 2021).
+
+
 
 
 
