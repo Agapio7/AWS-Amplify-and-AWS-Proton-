@@ -111,7 +111,7 @@ AWS Amplify is made up of three major parts:libraries, UI and CLI toolchain
 
 ## AWS Amplify Set Up
 
-* Get log in to the Amplify Console or choose Get Started at the top of the page in AWS Amplify home page.
+* Get log in to the [Amplify Console](https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Famplify%2Fhome%3Ffromtb%3Dtrue%26hashArgs%3D%2523%26isauthcode%3Dtrue%26state%3DhashArgsFromTB_us-east-1_6e90e16f18cee245&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Famplify&forceMobileApp=0&code_challenge=ZdgBoGNuoRaRZ2KkfYu4zEQPST2hLhYGprQQisYvpuM&code_challenge_method=SHA-256) or choose Get Started at the top of the page in [AWS Amplify home](https://docs.amplify.aws/) page.
 
 ![image](https://user-images.githubusercontent.com/91752852/145031206-8e6f2360-0f3b-4c3a-82e8-bbb10c3d0922.png)
 
