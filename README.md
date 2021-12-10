@@ -689,9 +689,10 @@ Well done ! You have successfully deployed your API and connected it with your a
 
 ### Step 4: Add authentication
 The next step is  you will be adding  authentication.
-Authentication with Amplify
 
-* The Amplify Framework uses Amazon Cognito as the main authentication provider.
+##### Authentication with Amplify
+
+* The Amplify Framework uses [Amazon Cognito](https://aws.amazon.com/cognito/) as the main authentication provider.
 * Amazon Cognito is a robust user directory service that handles user registration, authentication, account recovery & other operations.
 * Here, you'll learn how to add authentication to your application using Amazon Cognito and username/password login.
 
