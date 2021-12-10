@@ -832,12 +832,28 @@ The AWS Proton service works on two automation frameworks:
 
 
 * 1.Identify input parameters.
-
 * 2.Create a schema file that defines your input parameters.
 * 3.Administrator creates and register a Service Template with AWS Proton. It defines the related infrastructure, monitoring, and CI/CD resources as well as compatible Environment Templates.
 * 4.Developer selects a registered Service Template and provide a link to your Source code repository.
 * 5.AWS Proton supplies the Service with a CI/CD Pipeline for your Service instances.
 * 6.AWS Proton provisions and manages the Service and the Service Instances that are running the Source code as was defined in the selected Service Template. A Service Instance is an instantiation of the selected Service Template in an Environment for a single stage of a Pipeline.
+
+### AWS proton Working Mechanism
+
+![image](https://user-images.githubusercontent.com/91752852/145520531-12d212bc-63fd-4c64-a815-22cc972bcda7.png)
+
+   ![image](https://user-images.githubusercontent.com/91752852/145520607-f7175b07-a7dd-4f38-977c-0d4017c4c9b7.png)
+ An administrator selects an environment template with AWS Proton and provide values for required input parameters.
+ 
+ ![image](https://user-images.githubusercontent.com/91752852/145520767-c87867ae-b377-4ff4-a576-b01b384d8e99.png)
+AWS Proton uses the environment template and parameter values to provision your environment.
+  
+  ![image](https://user-images.githubusercontent.com/91752852/145520794-dbcd557d-3288-40c4-ab1b-e176b0a8f629.png)
+As developer or administrator selects a service template with AWS Proton and provide values for required input parameters. They also select an environment to deploy own application or service to.
+  
+ ![image](https://user-images.githubusercontent.com/91752852/145520809-412dff38-49b8-4909-a51b-075644e8b387.png)
+AWS Proton uses the service template, and both your service and selected environment parameter values to provision your service.
+
 
 ### AWS Proton Demo
 * Open AWS proton Service page in the **AWS console** and click **Get started**.
