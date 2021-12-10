@@ -9,6 +9,10 @@
 * In AWS Amplify, a variety of apps can be created to communicate easily with the AWS services through the AWS Amplify Framework such as iOS, Android, React Native, Flutter, React and Vue.
 * The remarking benefits of this tool is that it allows us to quickly and securely integrate a wide range of functions ranging from API to AI.
 
+#### Web and mobile front-end libraries
+![image](https://user-images.githubusercontent.com/91752852/145528287-eb5089d3-1d3b-49f3-9ce5-56f1d9024332.png)
+
+
 
 ### AWS Amplify features
 
